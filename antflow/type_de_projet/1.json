@@ -1,0 +1,146 @@
+{
+    "nom_projet": "Développement d'une application mobile",
+    "taches": [
+      {
+        "id": 1,
+        "nom": "Analyse des besoins",
+        "duree": 5.0,
+        "id_utilisateur_assignable": [5, 6, 7],
+        "id_tache_dependance": null
+      },
+      {
+        "id": 2,
+        "nom": "Conception de l'interface utilisateur",
+        "duree": 7.0,
+        "id_utilisateur_assignable": [6, 8],
+        "id_tache_dependance": 1
+      },
+      {
+        "id": 3,
+        "nom": "Développement du backend",
+        "duree": 10.0,
+        "id_utilisateur_assignable": [7, 9, 10],
+        "id_tache_dependance": 2
+      },
+      {
+        "id": 4,
+        "nom": "Tests et débogage",
+        "duree": 4.0,
+        "id_utilisateur_assignable": [5, 8, 11],
+        "id_tache_dependance": 3
+      },
+      {
+        "id": 5,
+        "nom": "Rédaction de la documentation",
+        "duree": 3.0,
+        "id_utilisateur_assignable": [12, 13],
+        "id_tache_dependance": null
+      },
+      {
+        "id": 6,
+        "nom": "Révisions de la documentation",
+        "duree": 2.0,
+        "id_utilisateur_assignable": [13, 14],
+        "id_tache_dependance": 5
+      },
+      {
+        "id": 7,
+        "nom": "Préparation du déploiement",
+        "duree": 3.0,
+        "id_utilisateur_assignable": [6, 10, 15],
+        "id_tache_dependance": 4
+      },
+      {
+        "id": 8,
+        "nom": "Déploiement de l'application",
+        "duree": 2.0,
+        "id_utilisateur_assignable": [9, 16],
+        "id_tache_dependance": 7
+      },
+      {
+        "id": 9,
+        "nom": "Formation des utilisateurs",
+        "duree": 5.0,
+        "id_utilisateur_assignable": [8, 12],
+        "id_tache_dependance": 8
+      },
+      {
+        "id": 10,
+        "nom": "Collecte des retours",
+        "duree": 2.0,
+        "id_utilisateur_assignable": [11, 17],
+        "id_tache_dependance": 9
+      },
+      {
+        "id": 11,
+        "nom": "Analyse des retours",
+        "duree": 3.0,
+        "id_utilisateur_assignable": [10, 18],
+        "id_tache_dependance": 10
+      },
+      {
+        "id": 12,
+        "nom": "Mise à jour de l'application",
+        "duree": 6.0,
+        "id_utilisateur_assignable": [12, 19],
+        "id_tache_dependance": 11
+      },
+      {
+        "id": 13,
+        "nom": "Tests de la mise à jour",
+        "duree": 3.0,
+        "id_utilisateur_assignable": [7, 15, 20],
+        "id_tache_dependance": 12
+      },
+      {
+        "id": 14,
+        "nom": "Validation de la mise à jour",
+        "duree": 2.0,
+        "id_utilisateur_assignable": [9, 10],
+        "id_tache_dependance": 13
+      },
+      {
+        "id": 15,
+        "nom": "Rétroaction finale",
+        "duree": 1.0,
+        "id_utilisateur_assignable": [5, 18],
+        "id_tache_dependance": 14
+      },
+      {
+        "id": 16,
+        "nom": "Clôture du projet",
+        "duree": 2.0,
+        "id_utilisateur_assignable": [11, 19],
+        "id_tache_dependance": 15
+      },
+      {
+        "id": 17,
+        "nom": "Réunions de suivi",
+        "duree": 1.5,
+        "id_utilisateur_assignable": [6, 13],
+        "id_tache_dependance": null
+      },
+      {
+        "id": 18,
+        "nom": "Mise à jour des rapports",
+        "duree": 2.0,
+        "id_utilisateur_assignable": [7, 12],
+        "id_tache_dependance": 17
+      },
+      {
+        "id": 19,
+        "nom": "Évaluation du projet",
+        "duree": 3.0,
+        "id_utilisateur_assignable": [9, 20],
+        "id_tache_dependance": 18
+      },
+      {
+        "id": 20,
+        "nom": "Rétroaction du client",
+        "duree": 2.0,
+        "id_utilisateur_assignable": [8, 10],
+        "id_tache_dependance": 19
+      }
+    ]
+  }
+  
